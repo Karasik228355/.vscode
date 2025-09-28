@@ -1,0 +1,20 @@
+h1 {
+  font-family: "Georgia", serif;
+  color: #0044cc;
+  margin: 20px 0;
+}
+
+p {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000000;
+  padding: 15px;
+  margin: 20px;
+  background-color: #ffdd99;
+}

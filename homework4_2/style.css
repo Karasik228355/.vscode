@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: hsl(210, 50%, 95%);
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  border: 3px solid #333333;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+.card__image {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid hsl(200, 70%, 50%);
+}
+
+.card__title {
+  color: rgb(50, 100, 200);
+  margin: 10px 0;
+}
+
+.card__description {
+  padding: 10px;
+  color: #555;
+}
+
+.card__social-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.card__social-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card__social-item a {
+  text-decoration: none;
+  color: hsl(0, 70%, 40%);
+  border: 2px solid hsla(0, 70%, 40%, 0.7);
+  padding: 5px 8px;
+}
+
+.dimensions {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.dimensions__box {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+}
+
+.dimensions__box:nth-child(1) {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(100, 150, 250);
+}
+
+.dimensions__box:nth-child(2) {
+  font-size: 2em;
+  padding: 1rem;
+  background-color: rgba(150, 200, 100, 0.7);
+}
+
+.dimensions__box:nth-child(3) {
+  width: 30vw;
+  height: 20vh;
+  background-color: hsl(50, 80%, 50%);
+}
+
+/*
+    display: inline це елемент займає тільки потрібну ширину але не можна задавати ширину та висоту.
+    display: inline-block це поєднує властивості inline і block (можна задавати ширину, висоту, відступи).
+*/
